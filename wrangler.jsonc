@@ -24,7 +24,13 @@
       "id": "5d5d1028281d4ec389bf010e7c0960d9",
       "preview_id": "13a12e9f308949e48b8f050ee31a0f71",
     },
-  ]
+  ],
+  "services": [
+    {
+      "binding": "NEXT_CACHE_REVALIDATION_WORKER",
+      "service": "opennext-cloudflare-isr",
+    },
+  ],
   /**
    * Smart Placement
    * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
