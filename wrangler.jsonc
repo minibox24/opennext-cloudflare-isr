@@ -31,6 +31,13 @@
       "service": "opennext-cloudflare-isr",
     },
   ],
+  "d1_databases": [
+    {
+      "binding": "DATABASE",
+      "database_name": "wma2024",
+      "database_id": "d0879b39-514d-4ea4-b8b3-3ad38134a58c"
+    }
+  ]
   /**
    * Smart Placement
    * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement

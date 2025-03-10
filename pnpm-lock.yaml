@@ -22,8 +22,8 @@ importers:
         specifier: ^4.20250303.0
         version: 4.20250303.0
       '@opennextjs/cloudflare':
-        specifier: 0.5.9
-        version: 0.5.9(wrangler@3.112.0(@cloudflare/workers-types@4.20250303.0))
+        specifier: 0.5.10
+        version: 0.5.10(wrangler@3.112.0(@cloudflare/workers-types@4.20250303.0))
       '@types/node':
         specifier: ^20
         version: 20.17.23
@@ -992,8 +992,8 @@ packages:
     version: 3.4.2
     hasBin: true
 
-  '@opennextjs/cloudflare@0.5.9':
-    resolution: {integrity: sha512-1JHKLh6a5x1EtoBAm6u5uv6zje9YuFztRI/0Lr6n3xbEVQFrfxZ42e8gJzQLV6os/BTlryQa+ANSZH6srEiPlg==}
+  '@opennextjs/cloudflare@0.5.10':
+    resolution: {integrity: sha512-L/D472YT5OW1LwpFtD/aVXHJYcVPbFVX7XdphlUjCR4+2osSQIDnsuNgfDRydHMDJZMKxeZDc251ZBzUVKpCqw==}
     hasBin: true
     peerDependencies:
       wrangler: ^3.111.0
@@ -4756,7 +4756,7 @@ snapshots:
       - aws-crt
       - supports-color
 
-  '@opennextjs/cloudflare@0.5.9(wrangler@3.112.0(@cloudflare/workers-types@4.20250303.0))':
+  '@opennextjs/cloudflare@0.5.10(wrangler@3.112.0(@cloudflare/workers-types@4.20250303.0))':
     dependencies:
       '@ast-grep/napi': 0.34.4
       '@dotenvx/dotenvx': 1.31.0
